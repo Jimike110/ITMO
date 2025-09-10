@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<products>
+    <entry>
+        <key>1</key>
+        <product>
+            <id>1</id>
+            <name>MichaelCOmp8aoif</name>
+            <coordinates>
+                <x>132</x>
+                <y>34.0</y>
+            </coordinates>
+            <creationDate>2025-02-27T14:04:04.220048400+03:00[Europe/Moscow]</creationDate>
+            <price>1500.0</price>
+            <unitOfMeasure>LITERS</unitOfMeasure>
+            <manufacturer>
+                <id>1</id>
+                <name>PS</name>
+                <fullName>PS Inc.</fullName>
+                <annualTurnover>5000000.0</annualTurnover>
+                <employeesCount>10000</employeesCount>
+            </manufacturer>
+        </product>
+    </entry>
+</products>
