@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
 
     <title>Web Lab 1 - Oladoye Michael</title>
 
     <link rel="stylesheet" href="styles.css" />
-  </head>
+</head>
 
-  <body>
-    <header id="header">
-      <div class="header-container">
+<body>
+<header id="header">
+    <div class="header-container">
         <span> Student: Оладое Майкл Б., Group: P3230, Вариант: 463223 </span>
-      </div>
-    </header>
+    </div>
+</header>
 
-    <main id="main">
-      <div class="container">
+<main id="main">
+    <div class="container">
         <div class="left">
-          <div class="form-div">
-            <form action="" id="form">
-              <h3 class="form-header card-title">Check Point Inclusion</h3>
+            <div class="form-div">
+                <form action="" id="form">
+                    <h3 class="form-header card-title">Check Point Inclusion</h3>
 
-              <label class="r-param-label" for="r-param">R Parameter:</label
-              ><br />
+                    <label class="r-param-label" for="r-param">R Parameter:</label
+                    ><br />
 
-              <input type="text" id="r-param" /><br />
+                    <input type="text" id="r-param" /><br />
 
-              <label class="x-coord" for="x-coord">X Coordinate:</label>
+                    <label class="x-coord" for="x-coord">X Coordinate:</label>
 
-              <input type="text" id="x-coord" /><br />
+                    <input type="text" id="x-coord" /><br />
 
-              <label class="y-coord" for="x-coord">Y Coordinate:</label>
+                    <label class="y-coord" for="x-coord">Y Coordinate:</label>
 
-              <input type="text" id="y-coord" /><br />
+                    <input type="text" id="y-coord" /><br />
 
-              <button id="form-btn">Check Inclusion</button>
-            </form>
-          </div>
-
-          <div class="live-info">
-            <h3 class="live-info-header card-title">Live Info</h3>
-
-            <div class="live-info-details">
-              <p>Current Time: <span id="curr-time"></span></p>
-
-              <p>Script Execution Time: <span class="exec-time"></span></p>
+                    <button id="form-btn">Check Inclusion</button>
+                </form>
             </div>
-          </div>
+
+            <div class="live-info">
+                <h3 class="live-info-header card-title">Live Info</h3>
+
+                <div class="live-info-details">
+                    <p>Current Time: <span id="curr-time"></span></p>
+
+                    <p>Script Execution Time: <span class="exec-time"></span></p>
+                </div>
+            </div>
         </div>
 
         <div class="right">
-          <div class="img-div">
-            <img src="./assets/areas.png" alt="graph of coordinate points" />
-          </div>
-
-          <div class="results-div">
-            <h3 class="results-header card-title">Previous Results</h3>
-
-            <div class="results-table-div">
-              <table id="results-table">
-                <thead>
-                  <th>R</th>
-                  <th>X</th>
-                  <th>Timestamp</th>
-                  <th>Script Time (ms)</th>
-                  <th>Result</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>
-                      <!-- get data from an array in index.js that was gotten from server -->
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="img-div">
+                <img src="./assets/areas.png" alt="graph of coordinate points" />
             </div>
-          </div>
+
+            <div class="results-div">
+                <h3 class="results-header card-title">Previous Results</h3>
+
+                <div class="results-table-div">
+                    <table id="results-table">
+                        <thead>
+                        <th>R</th>
+                        <th>X</th>
+                        <th>Timestamp</th>
+                        <th>Script Time (ms)</th>
+                        <th>Result</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <!-- get data from an array in index.js that was gotten from server -->
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
-    </main>
+    </div>
+</main>
 
-    <footer></footer>
+<footer></footer>
 
-    <script src="script.js" type="text/javascript"></script>
-  </body>
+<script src="script.js" type="text/javascript"></script>
+</body>
 </html>

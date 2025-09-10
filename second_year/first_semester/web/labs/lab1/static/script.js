@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 
   const r = document.getElementById("r").value;
 
-  fetch(`/~s463223/fcgi-bin/Server.jar?x=${x}&y=${y}&r=${r}`)
+  fetch(`/calculate`)
 
     .then((res) => res.json())
 
@@ -28,4 +28,4 @@ form.addEventListener("submit", (e) => {
 
     });
 
-}); 
+});
