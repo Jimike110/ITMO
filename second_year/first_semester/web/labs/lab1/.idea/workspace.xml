@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2bbe8e1-a4d9-4bfd-a13f-fa4000f3ee08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/fastcgi-lib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-annotations-2.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-core-2.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jackson-databind-2.17.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.38.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jimike/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/model/ClientRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/model/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/model/ServerResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/utility/ParamsParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jimike/utility/RequestChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/httpd.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
