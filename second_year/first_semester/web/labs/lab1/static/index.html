@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Web Lab 1 - Oladoye Michael</title>
-    <link rel="css/stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header id="header">
@@ -11,23 +11,24 @@
         <span> Student: Оладое Майкл Б., Group: P3230, Вариант: 463223 </span>
       </div>
     </header>
-    <main>
+    <main id="main">
       <div class="container">
         <div class="left">
           <div class="form-div">
             <form action="" id="form">
-              <h3 class="form-header">Check Point Inclusion</h3>
-              <label class="r-param-label" for="r-param">R Parameter:</label>
-              <input type="text" id="r-param" />
+              <h3 class="form-header card-title">Check Point Inclusion</h3>
+              <label class="r-param-label" for="r-param">R Parameter:</label
+              ><br />
+              <input type="text" id="r-param" /><br />
               <label class="x-coord" for="x-coord">X Coordinate:</label>
-              <input type="text" id="x-coord" />
+              <input type="text" id="x-coord" /><br />
               <label class="y-coord" for="x-coord">Y Coordinate:</label>
-              <input type="text" id="y-coord" />
+              <input type="text" id="y-coord" /><br />
               <button id="form-btn">Check Inclusion</button>
             </form>
           </div>
           <div class="live-info">
-            <h3 class="live-info-header">Live Info</h3>
+            <h3 class="live-info-header card-title">Live Info</h3>
             <div class="live-info-details">
               <p>Current Time: <span id="curr-time"></span></p>
               <p>Script Execution Time: <span class="exec-time"></span></p>
@@ -39,7 +40,7 @@
             <img src="" alt="" />
           </div>
           <div class="results-div">
-            <h3 class="results-header">Previous Results</h3>
+            <h3 class="results-header card-title">Previous Results</h3>
             <div class="results-table-div">
               <table id="results-table"></table>
             </div>
